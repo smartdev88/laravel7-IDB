@@ -35,5 +35,8 @@ Route::get('/posts/{id}/{author?}', function ($id, $author='yassine') {
         ]);
 });
 
+//convention typographique en informatique
+//========================================
 
-//pascal case HomeController
+//PascalCase ou CamelCase ex: HomeController
+//snake_case  ex: posts_table
